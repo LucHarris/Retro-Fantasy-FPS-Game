@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <FxCompile Include="Shaders\Default.hlsl">
+      <Filter>Resource Files</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\Geometry.hlsl">
+      <Filter>Resource Files</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\LightingUtil.hlsl">
+      <Filter>Resource Files</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\Terrain.hlsl">
+      <Filter>Resource Files</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\UI.hlsl">
+      <Filter>Resource Files</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AmmoBox.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Application.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioSystem.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Camera.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\d3dApp.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\d3dUtil.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\DDSTextureLoader.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameResource.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\GameTimer.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\GeometryGenerator.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="HealthBox.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\MathHelper.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Mob.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ReadMe.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprint.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteSystem.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Terrain.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TimerInterval.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapon.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleCtrl.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="InfinitePowerup.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="QuadPowerup.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ShieldPowerup.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="SpeedPowerup.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AmmoBox.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Application.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioSystem.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Camera.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\d3dApp.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\d3dUtil.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\d3dx12.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\DDSTextureLoader.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameResource.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\GameTimer.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\GeometryGenerator.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="HealthBox.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\MathHelper.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Mob.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprint.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteSystem.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Terrain.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="TimerInterval.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UploadBuffer.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Util.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderItemStruct.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Constants.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleCtrl.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header">
+      <UniqueIdentifier>{6ed58a0d-eb74-4065-9e05-589d24a3a442}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{36e1da5c-d436-4cc8-913b-4bb15afa09c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{8650863d-3bf0-45db-b816-cf4d60c69e4d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
